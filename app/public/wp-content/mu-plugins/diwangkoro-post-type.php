@@ -2,6 +2,9 @@
 
 function diwangkoro_post_type() {
     register_post_type('event',array(
+        'has_archive' => true,
+        'show_in_rest' => true,
+        'rewrite' => array('slug'=>'events'),
         'labels' => array(
             'name' => 'Events',
             'singular_name' => 'Event',
