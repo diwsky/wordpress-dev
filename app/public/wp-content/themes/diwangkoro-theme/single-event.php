@@ -22,6 +22,33 @@
                 </p>
             </div>
             <p><?php the_content() ?></p>
+            
+
+            <?php 
+                $relatedPrograms = get_field('related_programs');
+
+                if ($relatedPrograms) {
+                ?>
+
+                <hr class="section-break"/>
+
+                <h1 class="headline headline--medium">Realted Program(s)</h1>
+
+                <ul class="link-list min-list">
+                <?php
+
+                foreach($relatedPrograms as $program) {
+                ?>
+
+                    <li><a href="<?php echo get_the_permalink($program)?>"><?php echo get_the_title($program)?></a></li>
+                <?php
+
+                }
+            } 
+
+            ?>
+              </ul>  
+            
         </div>
         <?php
     }

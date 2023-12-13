@@ -212,3 +212,35 @@ Stack trace:
 [07-Dec-2023 14:23:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/update.php on line 211
 [07-Dec-2023 14:23:46 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/update.php on line 449
 [07-Dec-2023 14:24:06 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/update.php on line 730
+[09-Dec-2023 11:28:50 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/update.php on line 211
+[09-Dec-2023 11:28:50 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/update.php on line 449
+[09-Dec-2023 11:28:50 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/update.php on line 730
+[12-Dec-2023 04:34:01 UTC] PHP Warning:  Undefined variable $today in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 39
+[12-Dec-2023 04:34:47 UTC] PHP Warning:  Undefined variable $today in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 39
+[12-Dec-2023 04:34:47 UTC] PHP Warning:  Undefined variable $homeEvent in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 50
+[12-Dec-2023 04:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php:50
+Stack trace:
+#0 /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/diwang/Local Sites/diwangkoros/app/public/wp-blog-header.php(19): require_once('/Users/diwang/L...')
+#2 /Users/diwang/Local Sites/diwangkoros/app/public/index.php(17): require('/Users/diwang/L...')
+#3 {main}
+  thrown in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 50
+[12-Dec-2023 04:35:25 UTC] PHP Warning:  Undefined variable $today in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 39
+[12-Dec-2023 04:35:25 UTC] PHP Warning:  Undefined variable $homeEvent in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 50
+[12-Dec-2023 04:35:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php:50
+Stack trace:
+#0 /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/diwang/Local Sites/diwangkoros/app/public/wp-blog-header.php(19): require_once('/Users/diwang/L...')
+#2 /Users/diwang/Local Sites/diwangkoros/app/public/index.php(17): require('/Users/diwang/L...')
+#3 {main}
+  thrown in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 50
+[12-Dec-2023 04:35:26 UTC] PHP Warning:  Undefined variable $today in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 39
+[12-Dec-2023 04:35:26 UTC] PHP Warning:  Undefined variable $homeEvent in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 50
+[12-Dec-2023 04:35:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php:50
+Stack trace:
+#0 /Users/diwang/Local Sites/diwangkoros/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/diwang/Local Sites/diwangkoros/app/public/wp-blog-header.php(19): require_once('/Users/diwang/L...')
+#2 /Users/diwang/Local Sites/diwangkoros/app/public/index.php(17): require('/Users/diwang/L...')
+#3 {main}
+  thrown in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-event.php on line 50
+[12-Dec-2023 04:48:32 UTC] PHP Warning:  Undefined variable $today in /Users/diwang/Local Sites/diwangkoros/app/public/wp-content/themes/diwangkoro-theme/single-program.php on line 39
